@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/bl-automation-beta/sw.js', { scope: '/bl-automation-beta/' })})}
